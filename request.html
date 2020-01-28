@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>request</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,600,700|Open+Sans:300i,400i,800|Vollkorn:400,600i,900" rel="stylesheet"> 
+		<link rel="stylesheet" type="text/css" href="css/asset.css">
+</head>
+<body>
+	><header>
+		<nav>
+			<span id="text">Asset Management System</span>	
+			<div>
+				<img src="img/assetmng.png" style="border-radius: 5px" width="85"  height="85" >
+			</div>
+		</nav>
+	</header>
+	<form method="post" action="request.php">
+		<div class="container" >
+			<input type="text" name="Username" placeholder="Username"  class="input"  autocomplete="off" required><br><br>
+			<input type="text" name="Asset" placeholder="Asset"  class="input"  autocomplete="off"><br><br>
+			<input type="text" name="Category" placeholder="Category(tangible/intangible)"  class="input"  autocomplete="off"><br><br>
+			<input type="text" name="Quantity" placeholder="Quantity"  class="input"  autocomplete="off"><br><br>	
+			<input type="submit" name="submit" class="req" value="request"> 
+		</div>
+			
+	</form>
+</body>
+</html>

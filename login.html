@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>  
+	<title>login</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,600,700|Open+Sans:300i,400i,800|Vollkorn:400,600i,900" rel="stylesheet"> 
+		<link rel="stylesheet" type="text/css" href="css/asset.css">
+		<!-- <script type="text/javascript" src="js/signup.js"></script> -->
+</head>
+<body>
+	<header>
+		<nav>
+
+				<span id="text">Asset Management System</span>
+			
+			<div>
+				<img src="img/assetmng.png" style="border-radius: 5px" width="85"  height="85" >
+			</div>
+
+		</nav>
+	</header>
+	<br>                     
+	<form   method="POST" action="login.php" >
+		<div class="container">
+			<input type="text" name="username" placeholder="Username" class="input" required=""  autocomplete="off" id="password"><br><br>
+			<input type="password" name="pwrd" placeholder="Password" class="input" required=""  autocomplete="off" id="conf_pass"><br><br>
+			
+			<input type="submit" value="SIGN IN" class="input" id="sign">
+			<p id="pass"><a href="signup.html">CREATE ACCOUNT?</a></p>
+		</div>
+	</form>
+</body>
+</html>
